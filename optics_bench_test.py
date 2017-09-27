@@ -40,7 +40,7 @@ r.t = curve(pos = [vec(0,0,0), vec(-100/173.205081,100/173.205081,-100/173.20508
 
 list_of_rays=[]  # Create an empty list named 'list_of_rays'
 L=1  #Define a length for the rays
-for i in range(0,pi,.1):
+for i in range(0,pi,.1):  # Runs through a list of numbers from 0 to pi in steps of 0.1.
     x=L*cos(i)
     y=L*sin(i)
     new_curve=curve(pos=[vec(0,0,0),vec(x,y,0)], color=color.red)
