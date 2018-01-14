@@ -2,6 +2,11 @@
 A 3D optics bench using VPython
 
 Preliminary version of a 3D optics bench.  At present only transparent spheres and boxes can be placed in the world but there are future plans to add convex and concave lenses and mirrors.  You can create single light rays, point sources, and a beam (bundle) of light rays.  The code is currently a little rough around the edges but stop back for updates in the near future.
+# To Use
+
+Scroll down to the Test Code at the bottom and play around with the locations of the **round_thing**, **square_thing**, and **beam1**.
+
+You can add other objects and other light sources.
 
 # Classes
 
